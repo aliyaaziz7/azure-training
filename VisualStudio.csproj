@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/61379b30-c44d-48a5-bc9f-37af6d83f12e/resourceGroups/az-group-canada/providers/microsoft.insights/components/az-gitlab-app-canada</ApplicationInsightsResourceId>
+    <UserSecretsId>5e75636c-373b-4fcd-a6d6-abb5f6d70169</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
